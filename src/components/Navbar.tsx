@@ -2,9 +2,11 @@ import React from "react";
 import Link from "next/link";
 
 const Navbar: React.FC = () => (
-  <nav className="bg-gray-800 text-white w-64 h-screen flex">
+  <nav className="bg-gray-800 text-white w-64 h-screen flex flex-col">
     <div className="p-4">
-      <h1 className="text-2xl font-bold text-white">Dashboard</h1>
+      <Link href="/" legacyBehavior>
+        <a className="text-2xl font-bold cursor-pointer">Dashboard</a>
+      </Link>
       <ul className="mt-4 space-y-2">
         <li>
           <Link href="/dashboard" legacyBehavior>
@@ -16,7 +18,6 @@ const Navbar: React.FC = () => (
             <a className="block py-2 px-4 hover:bg-gray-700 rounded cursor-pointer">Crear Producto</a>
           </Link>
         </li>
-
       </ul>
     </div>
   </nav>

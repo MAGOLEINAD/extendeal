@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
 let products = [
-  { id: 1, name: 'Lavadora', description: 'Lavadora de carga frontal con capacidad de 8 kg.', price: 399 },
+  { id: 1, name: 'Lavadora', description: 'Lavadora de carga frontal con capacidad de 8 kg. Excelente estado, super duradera', price: 399 },
   { id: 2, name: 'Refrigerador', description: 'Refrigerador de dos puertas con dispensador de agua y sistema de enfriamiento eficiente.', price: 799 },
   { id: 3, name: 'Licuadora', description: 'Licuadora de alta potencia con cuchillas de acero inoxidable y jarra resistente.', price: 59 },
   { id: 4, name: 'Microondas', description: 'Microondas digital con función de descongelado automático y varios niveles de potencia.', price: 129 },

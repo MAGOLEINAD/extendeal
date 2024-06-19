@@ -11,8 +11,7 @@ const ProductItem: React.FC<ProductProps> = ({product}) => {
     <div className="bg-white p-4 rounded-lg shadow-md">
       <h2 className="text-lg font-bold">{product.name}</h2>
       <p className="text-gray-500">{product.description}</p>
-      <p className="mt-2">${product.price}</p>
-      {/* Aquí puedes añadir botones para editar y borrar el producto */}
+      <p className="mt-2 text-green-700 font-bold">${product.price}</p>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import { Product } from '../interfaces/types';
 
 interface Props {
-  productId: string; // Definición de la prop productId como string
+  productId: string; 
 }
 
 const ProductDetail: React.FC<Props> = ({ productId }) => {
@@ -25,7 +25,7 @@ const ProductDetail: React.FC<Props> = ({ productId }) => {
       } catch (error) {
         console.error('Error fetching product details:', error);
       } finally {
-        setLoading(false); // Termina la carga, sin importar el resultado
+        setLoading(false); 
       }
     };
 
@@ -50,7 +50,7 @@ const ProductDetail: React.FC<Props> = ({ productId }) => {
           throw new Error('Failed to delete product.');
         }
         alert('Producto eliminado correctamente.');
-        router.push('/dashboard'); // Redireccionar al listado de productos después de borrar
+        router.push('/dashboard'); // Redirecciono al listado de productos después de borrar
       } catch (error) {
         console.error('Error deleting product:', error);
       }
