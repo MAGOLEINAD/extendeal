@@ -20,7 +20,7 @@ const CreateProductPage: React.FC = () => {
       }
 
       alert('Producto creado exitosamente.');
-      // Puedes redirigir al usuario a otra página o realizar alguna acción adicional aquí
+
     } catch (error) {
       console.error('Error al crear el producto:', error);
       alert('Hubo un error al crear el producto.');

@@ -20,16 +20,19 @@ Para comenzar con el proyecto, sigue estos pasos:
 
 1. **Clona el repositorio:**
 
-   ```bash
-   git clone https://github.com/magoleinad/extendeal.git
+```bash
+git clone https://github.com/magoleinad/extendeal.git
+```
 
 2. **Dentro de la carpeta extendeal instala las dependencias**
-  ```bash
-  npm install
-  
+
+```bash
+npm install
+```
 3. **Inicia el servidor de desarrollo:**
   ```bash
- npm run dev
+npm run dev
+ ```
 
 ## Nota
 Ten en cuenta que dentro de la carpeta api en el archivo products.ts puedes agregar productos para el servidor de prueba, por default vienen agregados unos 30.

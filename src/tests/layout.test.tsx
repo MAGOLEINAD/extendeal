@@ -7,14 +7,12 @@ describe('Layout component', () => {
   
     const ChildComponent = () => <div>Test child</div>;
     
-    // Render Layout with mocked children
     const { getByText } = render(
       <Layout>
         <ChildComponent />
       </Layout>
     );
 
-    // Assert child component is rendered
     expect(getByText('Test child')).toBeInTheDocument();
   });
 });

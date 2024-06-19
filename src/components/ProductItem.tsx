@@ -2,7 +2,7 @@ import React from 'react';
 import { Product } from '../interfaces/types';
 
 interface ProductProps {
-    product: Product; // Definición de la interfaz para la prop product
+    product: Product; 
   }
 
 
