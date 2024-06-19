@@ -13,6 +13,8 @@ Este proyecto es una aplicación de gestión de productos desarrollada con Next.
 - [Next.js](https://nextjs.org/) - Framework de React para aplicaciones web.
 - TypeScript - Lenguaje de programación tipado.
 - [Tailwind CSS](https://tailwindcss.com/) - Framework de CSS utility-first para diseño.
+- Jest - Framework de pruebas para JavaScript.
+- React Testing Library - Utilidades de prueba para React basadas en el comportamiento del usuario.
 
 ## Getting Started
 
